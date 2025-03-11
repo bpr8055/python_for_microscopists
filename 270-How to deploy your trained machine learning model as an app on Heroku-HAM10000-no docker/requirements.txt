@@ -6,3 +6,5 @@ gunicorn==20.1.0
 scikit-learn==0.23.0
 Pillow==8.3.2
 tensorflow-cpu==2.4.1
+certifi>=2024.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+jinja2>=3.1.6 # not directly required, pinned by Snyk to avoid a vulnerability
